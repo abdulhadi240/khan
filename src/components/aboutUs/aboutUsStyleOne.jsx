@@ -9,28 +9,19 @@ function AboutUsStyleOne({ sectionSpace }) {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId="X7R-q9rsrtU"
-        onClose={() => setOpen(false)}
-      />
+
       <div className={`ltn__about-us-area ${sectionSpace}`}>
         <Container>
           <Row>
             <Col xs={12} lg={6} className="align-self-center">
               <div className="about-us-img-wrap about-img-left">
-                <img src="/img/others/7.png" alt="About Us Image" />
+                <img src="/pic.webp" alt="About Us Image" />
                 <div className="about-us-img-info about-us-img-info-2 about-us-img-info-3">
                   <div className="ltn__video-img ltn__animation-pulse1">
-                    <img src="/img/others/8.png" alt="video popup bg image" />
-                    <button
-                      onClick={() => setOpen(true)}
-                      className="ltn__video-icon-2"
-                    >
-                      <FaPlay />
-                    </button>
+                  <video autoPlay muted loop id="myVideo">
+                <source src="/video.mp4" type="video/mp4"/>
+            </video>
+
                   </div>
                 </div>
               </div>

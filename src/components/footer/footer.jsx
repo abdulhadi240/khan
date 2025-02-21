@@ -27,11 +27,16 @@ const Footer = function () {
                   <div className="footer-logo">
                     <div className="site-logo">
                       {/* <img src="/img/logo.png" alt="Logo" /> */}
-                      <Image src="/logo.png" alt="Logo" width={120} height={80}/>
+                      <Image
+                        src="/logo.png"
+                        alt="Logo"
+                        width={120}
+                        height={80}
+                      />
                     </div>
                   </div>
                   <p>
-                  Building Construction & Infrastructure Development Experts
+                    Building Construction & Infrastructure Development Experts
                   </p>
                   <div className="footer-address">
                     <ul>
@@ -40,7 +45,10 @@ const Footer = function () {
                           <FaMapMarkerAlt />
                         </div>
                         <div className="footer-address-info">
-                          <p>142, Maskeen Para, Shanti Nagar, National Stadium Road, Karachi East, Gulshan Town</p>
+                          <p>
+                            142, Maskeen Para, Shanti Nagar, National Stadium
+                            Road, Karachi East, Gulshan Town
+                          </p>
                         </div>
                       </li>
                       <li>
@@ -53,7 +61,6 @@ const Footer = function () {
                           </p>
                         </div>
                       </li>
-                      
                     </ul>
                   </div>
                   <div className="ltn__social-media mt-20">
@@ -109,12 +116,11 @@ const Footer = function () {
                       <li>
                         <Link href="/faq">FAQ</Link>
                       </li>
-                     
                     </ul>
                   </div>
                 </div>
               </Col>
-              
+
               <Col xs={12} sm={6} xl={3}>
                 <div className="footer-widget footer-newsletter-widget">
                   <h4 className="footer-title">Newsletter</h4>
@@ -149,7 +155,6 @@ const Footer = function () {
                   </p>
                 </div>
               </Col>
-              
             </Row>
           </div>
         </div>

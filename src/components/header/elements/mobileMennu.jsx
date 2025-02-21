@@ -64,7 +64,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
           <div className="ltn__utilize-menu-head">
             <div className="site-logo">
               <Link href="/">
-              <Image src="/logo.png" alt="Logo" width={200} height={100}/>
+                <Image src="/logo.png" alt="Logo" width={200} height={100} />
               </Link>
             </div>
             <button onClick={closeSideBar} className="ltn__utilize-close">

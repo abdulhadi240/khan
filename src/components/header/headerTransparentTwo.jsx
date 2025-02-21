@@ -76,7 +76,12 @@ const HeaderTransparentTwo = function ({ SetToggleClassName, topbar }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                    <Image src="/logo.png" alt="Logo" width={200} height={100}/>
+                      <Image
+                        src="/logo.png"
+                        alt="Logo"
+                        width={200}
+                        height={100}
+                      />
                     </Link>
                   </div>
                 </div>
@@ -85,7 +90,7 @@ const HeaderTransparentTwo = function ({ SetToggleClassName, topbar }) {
                 <div className="header-menu d-none d-xl-block">
                   <nav>
                     <div className="ltn__main-menu">
-                    <MenuList addListing={true} />
+                      <MenuList addListing={true} />
                     </div>
                   </nav>
                 </div>
