@@ -29,8 +29,8 @@ const Contact = () => {
                 </div>
                 <h3>Email Address</h3>
                 <p>
-                  info@webmail.com <br />
-                  jobs@webexample.com
+                ayyaankhan4@gmail.com<br />
+                  
                 </p>
               </div>
             </div>
@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <h3>Phone Number</h3>
                 <p>
-                0300-9216221 <br /> 0300-9216221
+                0300-9216221 
                 </p>
               </div>
             </div>
