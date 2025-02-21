@@ -43,31 +43,31 @@
 /* footer-color-1 */
 .ltn__footer-color-1 {
     p {
-        color: var(--ltn__color-2);
+        color: white;
         a {
-            color: var(--white);
+            color: white;
         }
     }
     .ltn__footer-timeline-widget-1 {
         li {
             span {
-                color: var(--ltn__color-1);
+                color: white;
             }
             &:last-child {
                 span {
-                    color: var(--white);
+                    color: white;
                 }
             }
         }
     }
     .footer-menu ul li {
-        color: var(--ltn__color-2);
+        color: white;
     } 
     .ltn__footer-blog-item {
-        border-color: var(--border-color-6);
+        border-color: white;
         .ltn__blog-meta {
             li {
-                color: var(--ltn__color-2);
+                color: white;
             }
         }
     }

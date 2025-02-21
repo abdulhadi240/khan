@@ -10,7 +10,7 @@ const CallToAction = () => {
         </div>
         <div className="btn-wrapper">
           <Link className="btn btn-effect-3 btn-white" href="/contact">
-            COntact Us Now<i className="icon-next"></i>
+            Contact Us Now<i className="icon-next"></i>
           </Link>
         </div>
       </div>

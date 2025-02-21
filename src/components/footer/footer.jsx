@@ -12,6 +12,7 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt,
 } from "react-icons/fa";
+import Image from "next/image";
 
 const Footer = function () {
   return (
@@ -26,7 +27,7 @@ const Footer = function () {
                   <div className="footer-logo">
                     <div className="site-logo">
                       {/* <img src="/img/logo.png" alt="Logo" /> */}
-                      <img src="/img/logo-2.png" alt="Logo" />
+                      <Image src="/logo.png" alt="Logo" width={120} height={80}/>
                     </div>
                   </div>
                   <p>
@@ -89,21 +90,7 @@ const Footer = function () {
                       <li>
                         <Link href="/about">About</Link>
                       </li>
-                      <li>
-                        <Link href="/service">Services</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </Col>
-              <Col xs={12} sm={6} xl={2}>
-                <div className="footer-widget footer-menu-widget clearfix">
-                  <h4 className="footer-title">Customer Care</h4>
-                  <div className="footer-menu">
-                    <ul>
-                      <li>
-                        <Link href="/faq">FAQ</Link>
-                      </li>
+
                       <li>
                         <Link href="/contact">Contact us</Link>
                       </li>
@@ -111,6 +98,23 @@ const Footer = function () {
                   </div>
                 </div>
               </Col>
+              <Col xs={12} sm={6} xl={2}>
+                <div className="footer-widget footer-menu-widget clearfix">
+                  <h4 className="footer-title">Services</h4>
+                  <div className="footer-menu">
+                    <ul>
+                      <li>
+                        <Link href="/service">service</Link>
+                      </li>
+                      <li>
+                        <Link href="/faq">FAQ</Link>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                </div>
+              </Col>
+              
               <Col xs={12} sm={6} xl={3}>
                 <div className="footer-widget footer-newsletter-widget">
                   <h4 className="footer-title">Newsletter</h4>
@@ -140,11 +144,12 @@ const Footer = function () {
               <Col xs={12} md={6}>
                 <div className="ltn__copyright-design clearfix">
                   <p>
-                    All Rights Reserved @ Khan & CO{" "}
+                    All Rights Reserved @ Company{" "}
                     <span className="current-year"></span>
                   </p>
                 </div>
               </Col>
+              
             </Row>
           </div>
         </div>

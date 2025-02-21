@@ -63,7 +63,7 @@ function Faq() {
 
   return (
     <>
-      <LayoutOne topbar={true}>
+      <LayoutOne topbar={false}>
         <ModalVideo
           channel="youtube"
           autoplay
@@ -74,7 +74,7 @@ function Faq() {
         <ShopBreadCrumb
           title="Frequently asked questions"
           sectionPace=""
-          currentSlug="About UsFAQ"
+          currentSlug="FAQ"
         />
 
         {/* <!-- FAQ AREA START (faq-2) (ID > accordion_2) --> */}

@@ -8,6 +8,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import clsx from "clsx";
 import MenuList from "@/components/header/elements/menuList";
+import Image from "next/image";
 const HeaderTransparent = function ({ SetToggleClassName, topbar }) {
   const [cartMenuOpener, cartMenuOpenerSet] = useState(false);
   const [overlayBtn, SetoverlayBtn] = useState(false);
@@ -63,8 +64,8 @@ const HeaderTransparent = function ({ SetToggleClassName, topbar }) {
         {/* <!-- ltn__header-middle-area start --> */}
         <div
           className={clsx(
-            "ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-black",
-            scroll > headerHeight && "sticky-active"
+            "ltn__header-middle-area ltn__header-sticky ",
+            scroll > headerHeight && " menu-color-black"
           )}
         >
           <Container>
@@ -73,7 +74,7 @@ const HeaderTransparent = function ({ SetToggleClassName, topbar }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/img/logo-2.png" alt="Logo" />
+                    <Image src="/logo.png" alt="Logo" width={100} height={70}/>
                     </Link>
                   </div>
                 </div>
