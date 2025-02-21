@@ -64,13 +64,7 @@ function Faq() {
   return (
     <>
       <LayoutOne topbar={false}>
-        <ModalVideo
-          channel="youtube"
-          autoplay
-          isOpen={isOpen}
-          videoId="LjCzPp-MK48"
-          onClose={() => setOpen(false)}
-        />
+
         <ShopBreadCrumb
           title="Frequently asked questions"
           sectionPace=""
@@ -95,13 +89,7 @@ function Faq() {
 
                   <Accordion.Item eventKey="2">
                     <Accordion.Header>How does Khan & Co ensure project quality?</Accordion.Header>
-                    <Accordion.Body>
-                      <div className="ltn__video-img alignleft">
-                        <img src="/img/bg/17.jpg" alt="Khan & Co project showcase" />
-                        <button className="ltn__video-icon-2 ltn__video-icon-2-small">
-                          <FaPlay />
-                        </button>
-                      </div>
+                    <Accordion.Body>                        
                       <p>
                         Quality is a core value at Khan & Co. Our PEC-certified team, including Civil Engineers, Architects, and Construction Managers, ensures precision and compliance with industry standards. We use premium materials, state-of-the-art equipment like excavators, cranes, and laser-guided leveling tools, and over 12 years of expertise to deliver projects that meet the highest benchmarks. Our FBR registration (NTN: 1530422540423, REF: D391917-3) further guarantees adherence to regulatory standards.
                       </p>
@@ -190,7 +178,7 @@ function Faq() {
                 {/* Banner Widget */}
                 <div className="widget ltn__banner-widget">
                   <Link href="/shop">
-                    <img src="/img/banner/banner-3.jpg" alt="Banner Image" />
+                    <img src="/crop.webp" alt="Banner Image" />
                   </Link>
                 </div>
               </aside>
