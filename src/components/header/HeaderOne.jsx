@@ -122,7 +122,7 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
 
                 {/* <!-- mini-cart --> */}
                 <div className="bg-black px-4 py-2">
-                  <Link href={'https://api.whatsapp.com/send/?phone=%2B923009216221&text&type=phone_number&app_absent=0'}
+                  <Link href={'https://api.whatsapp.com/send/?phone=%2B923152751837&text&type=phone_number&app_absent=0'}
                     
                   >
                     Contact Us
