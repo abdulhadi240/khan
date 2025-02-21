@@ -121,13 +121,12 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                 {/* <!-- header-search-1 --> */}
 
                 {/* <!-- mini-cart --> */}
-                <div className="">
-                  <button
-                    onClick={cartMenu}
-                    className={`special-link bg-black p-2 px-4  `}
+                <div className="bg-black px-4 py-2">
+                  <Link href={'https://api.whatsapp.com/send/?phone=%2B923009216221&text&type=phone_number&app_absent=0'}
+                    
                   >
                     Contact Us
-                  </button>
+                  </Link>
                 </div>
                 {/* <!-- mini-cart --> */}
                 {/* <!-- Mobile Menu Button --> */}
