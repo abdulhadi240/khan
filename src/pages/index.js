@@ -206,10 +206,6 @@ function HomePage(props) {
                 <AboutUsStyleOne sectionSpace="pt-120 pb-90" />
                 {/* <!-- ABOUT US AREA END -->
 
-      <!-- COUNTER UP AREA START --> */}
-                <CounterUp />
-                {/* <!-- COUNTER UP AREA END -->
-
       <!-- FEATURE AREA START ( Feature - 6) --> */}
                 <Feature
                     classes="section-bg-1"

@@ -53,18 +53,7 @@ function Feature({
                       </h3>
                       <p className="">{item.shortDescription}</p>
 
-                      {servicebtn ? (
-                        <Link
-                          className="ltn__service-btn"
-                          href={`/about`}
-                        >
-                          {item.buttonText}
-
-                          <i className="flaticon-right-arrow"></i>
-                        </Link>
-                      ) : (
-                        ""
-                      )}
+                      
                     </div>
                   </div>
                 </Col>
